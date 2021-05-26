@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    html{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+
+    }
+    body{
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+    main{
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .maps{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      padding-bottom: 6rem;
+    }
+
+    .maps section{
+      padding: 2rem;
+    }
+
+    .maps-new{
+      width: 40%;
+      padding-top: 2rem;
+      padding-right: 2rem;
+    }
+
+    .maps-new figure{
+      width: 70%;
+    }
+
+    .maps-current{
+      display: flex;
+      flex-wrap: wrap;
+      width: 60%;
+      height: 100%;
+      padding: 2rem 2rem 6rem;
+      border: 1px solid #ccc;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .maps-current h2{
+      width: 100%;
+    }
+
+    figure{
+      position: relative;
+      margin: 2rem;
+      width: calc(50% - 4rem);
+      height: 340px;
+      overflow: hidden;
+    }
+
+    figcaption{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 6px;
+      background: rgba(0,0,0,.5);
+      color: #fff;
+    }
+
+    figure img{
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+
+</head>
+<body>
+  <main>
+  <h1>Map Styles</h1>
+    <section class="maps">
+      <section class="maps-new">
+        <h2>New map style</h2>
+        <figure>
+        	<img src="img/Search 2021.png">
+        	<figcaption>Search 2021</figcaption>
+        </figure>
+      </section>
+      <section class="maps-current">
+        <h2>Current map styles</h2>
+        <figure>
+          <img src="img/Neighborhood.png">
+          <figcaption>Neighborhood</figcaption>
+        </figure>
+        <figure>
+          <img src="img/Search.png">
+          <figcaption>Search</figcaption>
+        </figure>
+        <figure>
+          <img src="img/Building.png">
+          <figcaption>Building</figcaption>
+        </figure>
+        <figure>
+          <img src="img/Property.png">
+          <figcaption>Property</figcaption>
+        </figure>
+        <figure>
+          <img src="img/Sold Properties .png">
+          <figcaption>Sold Properties </figcaption>
+        </figure>
+        <figure>
+          <img src="img/Development.png">
+          <figcaption>Development</figcaption>
+        </figure>
+        <figure>
+          <img src="img/Luxury.png">
+          <figcaption>Luxury</figcaption>
+        </figure>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
